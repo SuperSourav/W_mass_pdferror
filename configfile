@@ -1,0 +1,63 @@
+####  start a comment with '#' ###########
+[TCanvas_configs]
+height = 250
+width = 700
+bottom_margin = 0.2
+
+[PDFlabel_configs]
+x = 0.6 #x and y are between [0, 1]
+y = 0.8
+titlesize = 0.08
+
+[TH1Axis_configs]
+labelsizeX = 0.05
+labelsizeY = 0.05
+titlesizeX = 0.05 
+titlesizeY = 0.05 
+
+[PDFSet_scales]
+cteq6l1 = 1.0
+CT10 = 0.625
+CT10w = 0.625
+MSTW2008lo68cl = 1.0
+MSTW2008lo90cl = 0.625
+NNPDF30_lo_as_0118 = 0.1
+MMHT2014lo68cl = 1.0
+
+[Legend_labels]
+diffmTW = CTEQ6L1,CT10,CT10W,MSTW2008 (68%% CL),MSTW2008 (90%% CL),NNPDF3.0,MMHT2014 (68%% CL) #***#
+Err_ = cteq6l1,CT10,CT10w,MSTW2008lo68cl,MSTW2008lo90cl,NNPDF30_lo_as_0118,MMHT2014lo68cl #***#
+MTWscalemap_ = cteq6l1,CT10,CT10w,MSTW2008lo68cl,MSTW2008lo90cl,NNPDF30_lo_as_0118,MMHT2014lo68cl #***#
+MTWscaleratiomap_ = cteq6l1,CT10,CT10w,MSTW2008lo68cl,MSTW2008lo90cl,NNPDF30_lo_as_0118,MMHT2014lo68cl #***#
+MTWVariation_ = cteq6l1,CT10,CT10w,MSTW2008lo68cl,MSTW2008lo90cl,NNPDF30_lo_as_0118,MMHT2014lo68cl #***#
+MTWvarmap_ = cteq6l1,CT10,CT10w,MSTW2008lo68cl,MSTW2008lo90cl,NNPDF30_lo_as_0118,MMHT2014lo68cl #***#
+
+[deltaMWVSvariation]
+height = 500
+xmin = -1.6 #***#
+xmax = 2.0 #***#
+ymin = -10 #***#
+ymax = 12 #***#
+color = 1 #1 for colored plots
+legendsize = 0.04
+labelsizeX = 0.05
+labelsizeY = 0.05
+titlesizeX = 0.05 
+titlesizeY = 0.05 
+pointsize = 0.5 #***#
+
+[diffMW]
+height = 300
+xmin = 50.0 #***#
+xmax = 100.0 #***#
+ymin = -25e-6 #***#
+ymax = 30e-6 #***#
+color = 1 #1 for colored plots
+labelsizeX = 0.06
+labelsizeY = 0.06
+titlesizeX = 0.06 
+titlesizeY = 0.06 
+
+
+#***# : don't comment out these variable as default values not stored for them
+
